@@ -1,0 +1,36 @@
+.episodes {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.episode {
+  width: 210px;
+  height: 128px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 25px 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.episode__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.episode__code {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: rgba(0, 0, 0, 0.6);
+}

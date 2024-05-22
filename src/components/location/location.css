@@ -1,0 +1,48 @@
+.locations {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.location {
+  width: 210px;
+  height: 128px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 38px 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.location__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location__cut {
+  max-width: 160px;
+  white-space: nowrap;
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 450px) {
+  .locations {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .location {
+    width: 312px;
+    height: 128px;
+  }
+}

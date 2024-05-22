@@ -1,0 +1,9 @@
+.block_filter {
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 450px) {
+  .block_filter {
+    flex-direction: column;
+  }
+}
